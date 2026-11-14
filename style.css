@@ -1,0 +1,131 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #4d4a4a;
+    background-color: #98dfbd;
+}
+
+header {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: #cf3462;
+    color: white;
+    border-radius: 0 0 28px 28px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    padding: 13px;
+    text-align: center;
+    background-color: #3ca78e;
+    margin: 12px 18px;
+    border-radius: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 950px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    padding: 35px 10px;
+    text-align: center;
+}
+
+.bienvenida {
+    background-color: #ffc76e;
+    border-radius: 25px;
+}
+
+.informacion {
+    padding-top: 45px;
+}
+
+.horario-inicio {
+    background-color: #d3cfce;
+    border-radius: 25px;
+}
+
+.pedido-especial {
+    background-color: #ffc76e;
+    border-radius: 25px;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #cf3462;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.productos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 210px;
+    padding: 20px;
+    background-color: #f7f4f2;
+    border: 2px solid #d3cfce;
+    border-radius: 22px;
+}
+
+.precio {
+    font-weight: bold;
+    color: #cf3462;
+}
+
+.nota {
+    margin-top: 25px;
+    font-style: italic;
+}
+
+.contacto {
+    background-color: #d3cfce;
+    border-radius: 25px;
+}
+
+footer {
+    padding: 18px;
+    text-align: center;
+    background-color: #3ca78e;
+    color: white;
+    border-radius: 28px 28px 0 0;
+}
+
+@media (max-width: 600px) {
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta {
+        width: 90%;
+    }
+}
